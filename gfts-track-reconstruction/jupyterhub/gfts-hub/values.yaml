@@ -191,7 +191,6 @@ jupyterhub:
           - yellowcap
           - danielfdsilva
           - annefou
-          - aderrien7
           - jmdelouis
           - mwoillez
           - marinerandon
@@ -200,6 +199,8 @@ jupyterhub:
           - davidcasalsvliz
           - capetienne
           - corentin-hue
+          - mokoindo
+          - fpaulifr
       KubeSpawner:
         pod_security_context:
           fsGroup: 100
@@ -254,6 +255,7 @@ jupyterhub:
           - quentinmaz
           - capetienne
           - corentin-hue
+          - fpaulifr
     services:
       kbatch-proxy: {}
 
